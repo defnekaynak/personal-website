@@ -1,0 +1,115 @@
+@font-face {
+    font-family: EditorialNewRegular;
+    src: url("https://cdn.glitch.global/29a07b6b-d215-4a70-99c1-293cf0a4775a/PPEditorialNew-Regular.woff?v=1700458716016") format("opentype");
+}
+
+@font-face {
+    font-family: EditorialNewUltraLight;
+    src: url("https://cdn.glitch.global/29a07b6b-d215-4a70-99c1-293cf0a4775a/PPEditorialNew-Thin.woff?v=1700458716166") format("opentype");
+}
+
+body {
+  background-color: #1B1B1B;
+  margin: 40px;
+  color: #ffffff;
+  
+  font-family: EditorialNewUltraLight, serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.3;
+/*   letter-spacing: -0.01em */
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  cursor:none;
+  transition: color 0.3s
+}
+
+
+header {
+  max-width: 860px;
+  position: fixed;
+  top: 40px;
+  left: 40px
+}
+
+header h1 {
+  margin: 0px;
+  max-width: 860px;
+  
+  font-family: EditorialNewUltraLight, serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-right: 40px
+}
+
+header h1 p {
+  display: inline;
+  color: #9EFF02
+}
+
+footer {
+  position: fixed;
+  bottom:40px;
+  left:40px;
+}
+
+footer a {
+  margin-right:12px
+}
+
+a:hover {
+  color: #A9A9A9;
+  border-bottom: 2px solid #1B1B1B
+}
+
+
+/* BREKPOINT */
+@media (max-width:500px) {
+
+  
+  body {
+    font-size: 28px;
+  }
+  
+  header {
+  top: 30px;
+  left: 30px
+}
+
+  
+  header h1 {
+    font-size: 28px;
+  }
+  
+  footer {
+  bottom:30px;
+  left:30px;
+}
+  
+  a {
+     border-bottom: 1px solid #ffffff;
+  }
+  
+  
+}
+
+
+/* BREKPOINT */
+@media (min-width:500px) {
+  html {
+  cursor:none
+}
+
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height:45px; width: 45px;
+    border-radius: 100%;
+    background: #9EFF02;
+  }
+}
