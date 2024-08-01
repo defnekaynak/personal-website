@@ -71,7 +71,7 @@ a:hover {
 }
 
 
-/* BREKPOINT */
+/* BREAKPOINT */
 @media (max-width:500px) {
 
   
@@ -94,15 +94,15 @@ a:hover {
   left:30px;
 }
   
-  a {
+/*   a {
      border-bottom: 1px solid #ffffff;
-  }
+  } */
   
   
 }
 
 
-/* BREKPOINT */
+/* BREAKPOINT */
 @media (min-width:500px) {
   html {
   cursor:none
