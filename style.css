@@ -25,35 +25,39 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
   color: #ffffff;
-/*   border-bottom: 2px solid #ffffff;
+  /*   border-bottom: 2px solid #ffffff;
   padding-bottom: -4px; */
-  cursor:none;
+  cursor: none;
   transition: color 0.3s;
 }
 
-
 header {
-  max-width: 860px;
+  max-width: 820px;
   position: fixed;
   top: 40px;
-  left: 40px
+  left: 40px;
 }
 
-header h1 {
+header p {
   margin: 0px;
-  max-width: 860px;
-  
+  max-width: 820px;
   font-family: EditorialNewUltraLight, serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 1.4;
-  margin-right: 40px
+  margin-right: 40px;
 }
 
-header h1 p {
+#name {
   display: inline;
-  color: #9EFF02
+  color: #9eff02;
+  margin: 0;
 }
+
+#secondary {
+  color: #868686;
+}
+
 
 footer {
   position: fixed;
@@ -85,7 +89,15 @@ a:hover {
 }
 
   
-  header h1 {
+  header p {
+    font-size: 28px;
+  }
+    
+#name {
+    font-size: 28px;
+  }
+  
+  #secondary {
     font-size: 28px;
   }
   
