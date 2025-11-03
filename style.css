@@ -114,6 +114,70 @@ header p span {
 }
 
 
+
+.images {
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 180px;
+    padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.image {
+  width: 500px;
+  margin: 10px;
+  position: relative;
+}
+
+.image img {
+  transition: filter 0.3;
+}
+
+.image:hover img {
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 2;
+}
+
+
+.image:hover .overlay {
+  opacity: 1;
+}
+
+h2 {
+	color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+h3 {
+	color: rgb(255, 255, 255);
+  position: absolute;
+  left: 20px;
+  top: 65px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+
+
 /* BREAKPOINT */
 @media (min-width:500px) {
   html {
@@ -127,4 +191,10 @@ header p span {
     border-radius: 100%;
     background: #9EFF02;
   }
+}
+
+@media (min-width:1600px) {
+	.image {
+		width: 700px;
+	}
 }
