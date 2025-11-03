@@ -113,7 +113,23 @@ header p span {
   
 }
 
+/* BREAKPOINT */
+@media (min-width:500px) {
+  html {
+  cursor:none
+}
 
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height:45px; width: 45px;
+    border-radius: 100%;
+    background: #9EFF02;
+  }
+}
+
+
+/* WRK PAGE STYLES */
 
 .images {
   max-width: 90vw;
@@ -182,20 +198,6 @@ h3 {
 
 
 /* BREAKPOINT */
-@media (min-width:500px) {
-  html {
-  cursor:none
-}
-
-
-.trail { /* className for the trail elements */
-    position: absolute;
-    height:45px; width: 45px;
-    border-radius: 100%;
-    background: #9EFF02;
-  }
-}
-
 @media (min-width:1600px) {
 	.image img {
 		width: 700px;
