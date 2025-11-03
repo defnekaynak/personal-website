@@ -127,14 +127,17 @@ header p span {
   justify-content: center;
 }
 
-.image {
+/* .image {
   width: 500px;
   margin: 10px;
   position: relative;
-}
+} */
 
 .image img {
-  transition: filter 0.3;
+  width: 500px;
+  margin: 10px;
+  position: relative;
+transition: filter 0.3;
 }
 
 .image:hover img {
@@ -194,7 +197,7 @@ h3 {
 }
 
 @media (min-width:1600px) {
-	.image {
+	.image img {
 		width: 700px;
 	}
 }
