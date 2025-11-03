@@ -145,13 +145,16 @@ header p span {
 
 .image {
   width: 500px;
+	height: 500px;
   margin: 10px;
   position: relative;
 }
 
-/* .image img {
+.image img {
+	width: 500px;
+	height: 500px;
 transition: filter 0.3;
-} */
+}
 
 .image:hover img {
   filter: grayscale(100%);
