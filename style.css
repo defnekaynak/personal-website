@@ -143,18 +143,15 @@ header p span {
   justify-content: center;
 }
 
-/* .image {
+.image {
   width: 500px;
   margin: 10px;
   position: relative;
-} */
-
-.image img {
-  width: 500px;
-  margin: 10px;
-  position: relative;
-transition: filter 0.3;
 }
+
+/* .image img {
+transition: filter 0.3;
+} */
 
 .image:hover img {
   filter: grayscale(100%);
