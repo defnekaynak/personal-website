@@ -189,18 +189,18 @@ transition: filter 0.3;
 h2 {
 	color: #fff;
   position: absolute;
-  left: 20px;
-  top: 20px;
+  left: 30px;
+  top: 30px;
 	margin: 0;
   font-size: 24px;
   line-height: 1.2;
 }
 
 h3 {
-	color: rgb(255, 255, 255);
+	color: #747474;
   position: absolute;
-  left: 20px;
-  top: 65px;
+  left: 30px;
+  top: 70px;
 	margin: 0;
   font-size: 20px;
   line-height: 1.2;
