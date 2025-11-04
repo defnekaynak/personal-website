@@ -202,6 +202,10 @@ h3 {
 
 /* BREAKPOINT */
 @media (min-width:1600px) {
+	.image {
+		width: 700px;
+		height: 700px;
+	}
 	.image img {
 		width: 700px;
 		height: 700px;
