@@ -125,7 +125,7 @@ header p span {
     height:45px; width: 45px;
     border-radius: 100%;
     background: #9EFF02;
-	z-index: 3
+	z-index: 10
   }
 }
 
@@ -197,6 +197,11 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
 }
+
+header {
+	z-index: 3
+}
+		
 
 
 
