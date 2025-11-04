@@ -201,11 +201,15 @@ h3 {
 
 
 /* BREAKPOINT */
-/* @media (min-width:1600px) {
+@media (min-width:1600px) {
 	.image img {
 		width: 700px;
 		height: 700px;
-	} */
+	}
+	.overlay {
+		width: 700px;
+		height: 700px;
+	}
 
 
 
