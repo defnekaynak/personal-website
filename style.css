@@ -130,7 +130,15 @@ header p span {
 }
 
 
-/* WRK PAGE STYLES */
+/* WORK PAGE STYLES */
+
+.workpage {
+	background-color: #fff;
+}
+
+.back {
+	color: #9EFF02;
+}
 
 .images {
   max-width: 90vw;
