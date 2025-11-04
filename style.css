@@ -125,6 +125,7 @@ header p span {
     height:45px; width: 45px;
     border-radius: 100%;
     background: #9EFF02;
+	z-index: 3
   }
 }
 
@@ -207,8 +208,6 @@ h3 {
 	}
 }
 
-.trail {
-	z-index: 3
-}
+
 
 
