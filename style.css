@@ -128,6 +128,11 @@ header p span {
   
 }
 
+/* Supress play icon */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 /* BREAKPOINT */
 @media (min-width:500px) {
   html {
